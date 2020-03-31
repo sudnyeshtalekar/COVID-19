@@ -19,7 +19,7 @@
         app:layout_constraintHorizontal_bias="0.074"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.006"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/title" />
 
     <ImageView
@@ -80,14 +80,14 @@
 
     <TextView
         android:id="@+id/help"
-        android:layout_width="147dp"
-        android:layout_height="38dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:fontFamily="@font/poppins_medium"
         android:text="HELPLINE NO."
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.579"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -109,26 +109,26 @@
 
     <TextView
         android:id="@+id/tc1"
-        android:layout_width="69dp"
-        android:layout_height="23dp"
+        android:layout_width="90dp"
+        android:layout_height="26dp"
+        android:fontFamily="@font/roboto_medium"
         android:text="----------"
         android:textAlignment="center"
-        android:fontFamily="@font/roboto_medium"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.146"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.327" />
+        app:layout_constraintBottom_toTopOf="@+id/nc1"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.061"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.642" />
 
     <TextView
         android:id="@+id/tr1"
-        android:layout_width="69dp"
-        android:layout_height="23dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_medium"
         android:text="----------"
         android:textAlignment="center"
-        android:fontFamily="@font/roboto_medium"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -139,18 +139,18 @@
 
     <TextView
         android:id="@+id/td1"
-        android:layout_width="69dp"
-        android:layout_height="23dp"
+        android:layout_width="88dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/roboto_medium"
         android:text="----------"
         android:textAlignment="center"
-        android:fontFamily="@font/roboto_medium"
         android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.435"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.327" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.465"
+        app:layout_constraintStart_toStartOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.446" />
 
     <TextView
         android:id="@+id/dt1"

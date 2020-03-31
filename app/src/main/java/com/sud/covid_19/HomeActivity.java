@@ -68,6 +68,13 @@ public class HomeActivity extends AppCompatActivity {
         pr=findViewById(R.id.imageView6);
         help=findViewById(R.id.help);
 
+        help.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                
+            }
+        });
+
         DownloadTask task = new DownloadTask();
         task.execute("https://thevirustracker.com/free-api?global=stats");
 
